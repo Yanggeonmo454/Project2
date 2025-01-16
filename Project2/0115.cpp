@@ -201,27 +201,25 @@
 //
 //    return 0;
 //}
-//
+
 //#include <iostream>
 //
 //int main() {
-//    int n;
+//    int n = 0;
 //
 //    std::cout << "숫자를 입력하세요: ";
 //    std::cin >> n;
 //
 //    for (int i = 1; i <= n; i++) {
-//        // 공백 출력
+//        
 //        for (int j = 1; j <= n - i; j++) {
 //            std::cout << " ";
 //        }
 //
-//        // 별 출력
 //        for (int k = 1; k <= 2 * i - 1; k++) {
 //            std::cout << "*";
 //        }
 //
-//        // 줄 바꿈
 //        std::cout << std::endl;
 //    }
 //
