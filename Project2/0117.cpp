@@ -108,3 +108,45 @@
 //	return 0;
 //}
 
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//int main() {
+//    const int student = 5;
+//    const int subject = 3;
+//    int exam[student][subject] = {};
+//    string str = " ";
+//    int point = 0;
+//    int val = 0;
+//    for (int i = 0; i < student; i++)
+//    {
+//        cout << i + 1 << "번째 학생의 영어, 수학, 과학 성적은 (입력): ";
+//        getline(cin, str);
+//        //for 문 안쓰고 한거
+//        //cout << str << endl;
+//        //int val = str.find(" ");
+//        //cout << "첫번째 find 값 : " << val << endl;
+//        //string tmp = str.substr(0, val);
+//        //cout << "첫번째 숫자 : " << tmp << endl;
+//        //int val2 = str.find(" ", val + 1);
+//        //cout << "두번째 find 값 : " << val2 << endl;
+//        //string tmp2 = str.substr(val+1, val2 - val);
+//        //cout << "두번째 숫자 : " << tmp2 << endl;
+//        //string tmp3 = str.substr(val2+1);
+//        //cout << "세번째 숫자 : " << tmp3 << endl;
+//        for (int i_i = 0; i_i < subject; i_i++)
+//        {
+//            //for문 쓴거
+//            val = str.find(" ", point);
+//            string tmp = str.substr(point, val - point);
+//            point = val + 1;
+//            exam[i][i_i] = stoi(tmp);
+//        }
+//    }
+//    cout << "----------------------------------------" << endl;
+//    for (int j = 0; j < 5; j++)
+//    {
+//        cout << j + 1 << "번째 학생의 영어, 수학, 과학 성적은 (출력): " << exam[j][0] << " " << exam[j][1] << " " << exam[j][2] << endl;
+//    }
+//    return 0;
+//}
